@@ -2,7 +2,7 @@ NAME := my-echo
 REPOSITORY := aoi0930/$(NAME)
 TAG := 2024071010
 GOOS := windows
-GOARCH := arm64
+GOARCH := amd64
 
 .PHONY: build test image-build image-push clean
 build:
