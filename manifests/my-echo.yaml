@@ -39,7 +39,7 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: "/"
+        path: "/ping"
         backend:
           service:
             name: my-echo
